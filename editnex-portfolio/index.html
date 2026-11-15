@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JAI KUMAR | Creative Video Editor</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- PRELOADER -->
+    <div class="loader" id="loader">
+        <h1>JAI <span>KUMAR</span></h1>
+        <div class="loader-line"></div>
+    </div>
+
+    <!-- 3D BACKGROUND -->
+    <canvas id="particles"></canvas>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#home" class="logo">JAI<span>KUMAR</span></a>
+
+        <nav id="navMenu">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#services">SERVICES</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+
+        <a href="#contact" class="nav-btn">HIRE ME ↗</a>
+
+        <button class="menu-btn" id="menuBtn">☰</button>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <div class="available">
+                <span></span> AVAILABLE FOR PROJECTS
+            </div>
+
+            <p class="small-title">HELLO, I'M</p>
+
+            <h1>
+                JAI<span>KUMAR</span>
+            </h1>
+
+            <h2>
+                VIDEO EDITOR &
+                <span>VISUAL STORYTELLER.</span>
+            </h2>
+
+            <p class="description">
+                I transform ordinary footage into extraordinary
+                visual experiences through creative editing,
+                cinematic storytelling and powerful visuals.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="primary-btn">
+                    EXPLORE MY WORK ↗
+                </a>
+
+                <a href="#about" class="secondary-btn">
+                    ABOUT ME
+                </a>
+            </div>
+
+            <div class="hero-stats">
+                <div>
+                    <h3>CREATIVE</h3>
+                    <p>THINKING</p>
+                </div>
+
+                <div>
+                    <h3>CINEMATIC</h3>
+                    <p>VISUALS</p>
+                </div>
+
+                <div>
+                    <h3>QUALITY</h3>
+                    <p>EDITING</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- PORTRAIT -->
+        <div class="hero-visual">
+
+            <div class="visual-ring ring-one"></div>
+            <div class="visual-ring ring-two"></div>
+
+            <div class="portrait-card">
+                <img
+                    src="images/image.png"
+                    alt="EDITNEX_17 Video Editor"
+                    onerror="this.style.display='none'"
+                >
+
+                <div class="portrait-placeholder">
+                    <span>YOUR PHOTO</span>
+                    <p>ADD YOUR PORTRAIT</p>
+                </div>
+            </div>
+
+            <div class="floating-label label-top">
+                <span>✦</span> CREATIVE EDITOR
+            </div>
+
+            <div class="floating-label label-bottom">
+                <span>●</span> VISUAL ARTIST
+            </div>
+
+        </div>
+
+        <div class="scroll-indicator">
+            SCROLL TO EXPLORE ↓
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+
+        <p class="section-tag">01 / ABOUT ME</p>
+
+        <h2>BEHIND THE <span>EDIT.</span></h2>
+
+        <p class="about-text">
+            I'm a creative video editor passionate about
+            transforming ideas into engaging visual stories.
+            My focus is on engaging editing, social media
+            content and creative storytelling.
+        </p>
+
+        <div class="skill-list">
+            <span>VIDEO EDITING</span>
+            <span>YOUTUBE EDITING</span>
+            <span>REELS</span>
+            <span>COLOR GRADING</span>
+            <span>STORYTELLING</span>
+        </div>
+
+    </section>
+
+    
+<!-- PROJECTS -->
+<section class="section projects" id="projects">
+
+    <p class="section-tag">02 / MY WORK</p>
+    <h2>MY LATEST <span>EDITS.</span></h2>
+
+    <div class="project-grid">
+
+        <!-- VIDEO 1 -->
+        <div class="project-card">
+            <video src="./videos/podcast.mp4"
+                   controls playsinline preload="auto"
+                   controlsList="nodownload">
+            </video>
+            <div class="project-info">
+                <h3>PODCAST EDIT</h3>
+            </div>
+        </div>
+
+        <!-- VIDEO 2 -->
+        <div class="project-card">
+            <video src="./videos/motion graphics 2.mp4"
+                   controls playsinline preload="auto"
+                   controlsList="nodownload">
+            </video>
+            <div class="project-info">
+                <h3>MOTION GRAPHICS EDIT</h3>
+            </div>
+        </div>
+
+        <!-- VIDEO 3 -->
+        <div class="project-card">
+            <video src="./videos/motion graphics.mp4"
+                   controls playsinline preload="auto"
+                   controlsList="nodownload">
+            </video>
+            <div class="project-info">
+                <h3>MOTION GRAPHICS EDIT</h3>
+            </div>
+        </div>
+
+        <!-- VIDEO 4 -->
+        <div class="project-card">
+            <video src="./videos/reels edit .mp4"
+                   controls playsinline preload="auto"
+                   controlsList="nodownload">
+            </video>
+            <div class="project-info">
+                <h3>REELS EDIT</h3>
+            </div>
+        </div>
+
+        <!-- VIDEO 5 -->
+        <div class="project-card">
+            <video src="./videos/reels .mp4"
+                   controls playsinline preload="auto"
+                   controlsList="nodownload">
+            </video>
+            <div class="project-info">
+                <h3>REELS EDIT</h3>
+            </div>
+        </div>
+
+        <!-- VIDEO 6 -->
+        <div class="project-card">
+            <video src="./videos/reel edit .mp4"
+                   controls playsinline preload="auto"
+                   controlsList="nodownload">
+            </video>
+            <div class="project-info">
+                <h3>REELS EDIT</h3>
+            </div>
+        </div>
+
+        <!-- VIDEO 7 -->
+        <div class="project-card">
+            <video src="./videos/kuruvi.mp4"
+                   controls playsinline preload="auto"
+                   controlsList="nodownload">
+            </video>
+            <div class="project-info">
+                <h3>AI REEL EDIT</h3>
+            </div>
+        </div>
+
+        
+
+    </div>
+</section>
+
+    
+
+
+    <!-- SERVICES -->
+    <section class="section services" id="services">
+
+        <p class="section-tag">03 / WHAT I DO</p>
+
+        <h2>MY <span>SERVICES.</span></h2>
+
+        <div class="service-grid">
+
+            <div class="service-card">
+                <span>01</span>
+                <h3>CINEMATIC EDITING</h3>
+                <p>Professional cinematic video editing and storytelling.</p>
+            </div>
+
+            <div class="service-card">
+                <span>02</span>
+                <h3>REELS EDITING</h3>
+                <p>Engaging short-form content for social media.</p>
+            </div>
+
+            <div class="service-card">
+                <span>03</span>
+                <h3>YOUTUBE EDITING</h3>
+                <p>Creative long-form videos and YouTube content.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    
+<!-- CONTACT SECTION -->
+<section class="section contact" id="contact">
+
+    <p class="section-tag">04 / GET IN TOUCH</p>
+
+    <h2>LET'S CREATE <span>SOMETHING GREAT.</span></h2>
+
+    <p>
+        Have a project in mind? Let's work together
+        and turn your ideas into reality.
+    </p>
+
+    <a
+        href="https://wa.me/918925407410?text=Hi%20EDITNEX_17%2C%20I%20need%20video%20editing%20services."
+        target="_blank"
+        rel="noopener noreferrer"
+        class="primary-btn"
+    >
+        CHAT ON WHATSAPP ↗
+    </a>
+
+</section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="#home" class="logo">EDITNEX<span>_17</span></a>
+
+        <p>© 2026 EDITNEX_17. ALL RIGHTS RESERVED.</p>
+
+        <a href="#home">BACK TO TOP ↑</a>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
